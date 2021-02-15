@@ -1,0 +1,7 @@
+14:52:14.544 [main] INFO  resources.base - Nonrestricted User
+14:52:17.077 [main] INFO  resources.base - Restricted User
+14:52:17.811 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+14:52:26.007 [main] INFO  resources.base - Navigation bar is displayed
+14:52:29.718 [main] INFO  resources.base - Driver is initialized
+14:52:34.664 [main] INFO  resources.base - URL is opened
+14:52:34.721 [main] INFO  resources.base - Header is displayed

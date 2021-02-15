@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Home Page</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">13,335</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Validate Navigation</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">6,394</td><td></td><td></td></tr>
+<tr><td><a href="#t2">App Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Validate Title</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">9,676</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite (0)</th></tr>
+<tr><td><a href="#t4">Home Page</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">21,264</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">6</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">50,669</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Home Page &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">Academy.E2EProject.HomePage</td><td><a href="#m0">signInTest</a></td><td rowspan="2">1613386330979</td><td rowspan="2">4292</td></tr><tr class="passedeven"><td><a href="#m1">signInTest</a></td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Validate Navigation &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Academy.E2EProject.ValidateNavigation</td><td><a href="#m2">navigationValidation</a></td><td rowspan="1">1613386345904</td><td rowspan="1">103</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4" class="invisible"/></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Validate Title &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Academy.E2EProject.ValidateTitle</td><td><a href="#m3">titleValidation</a></td><td rowspan="1">1613386354722</td><td rowspan="1">55</td></tr><tr><th colspan="4">Validate Title &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Academy.E2EProject.ValidateTitle</td><td><a href="#m4">headerValidation</a></td><td rowspan="1">1613386354665</td><td rowspan="1">56</td></tr></tbody>
+<tbody><tr><th colspan="4">Suite (0)</th></tr></tbody><tbody id="t4"><tr><th colspan="4">Home Page &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">cucumberOptions.TestRunner</td><td><a href="#m5">runScenario</a></td><td rowspan="2">1613386366124</td><td rowspan="2">11127</td></tr><tr class="passedeven"><td><a href="#m6">runScenario</a></td></tr></tbody>
+</table>
+<h2>Home Page</h2><h3 id="m0">Academy.E2EProject.HomePage#signInTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>nonrestricteduser@qa.com</td><td>12345</td><td>Nonrestricted User</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Academy.E2EProject.HomePage#signInTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>restricteduser@qa.com</td><td>54321</td><td>Restricted User</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Validate Navigation</h2><h3 id="m2">Academy.E2EProject.ValidateNavigation#navigationValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>App Test</h2><h2>Validate Title</h2><h3 id="m3">Academy.E2EProject.ValidateTitle#titleValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.junit.ComparisonFailure: expected:&lt;F[eatured courses]&gt; but was:&lt;F[EATURED COURSES]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at Academy.E2EProject.ValidateTitle.titleValidation(ValidateTitle.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Academy.E2EProject.ValidateTitle#headerValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Home Page</h2><h3 id="m5">cucumberOptions.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Positive test validation login&quot;</td><td>&quot;Optional[Login info Application]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">cucumberOptions.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Positive test validation login&quot;</td><td>&quot;Optional[Login info Application]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
