@@ -17,6 +17,7 @@ public class GitDemoAddition extends base{
 		System.out.println("test4");
 		System.out.println("test5");
 		System.out.println("test6");
+		//commit by GitX
 	}
 	
 	@Test
